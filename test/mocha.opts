@@ -1,0 +1,8 @@
+--slow 60
+--growl
+--ui bdd
+--debug
+--recursive
+--reporter spec
+--timeout 1000
+--require test/config

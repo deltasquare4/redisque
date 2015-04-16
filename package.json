@@ -1,0 +1,39 @@
+{
+  "name": "redisque",
+  "version": "0.1.0",
+  "description": "A redis-backed, reliable message queue with delayed message support.",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/deltasquare4/redisque.git"
+  },
+  "keywords": [
+    "mq",
+    "message",
+    "queue",
+    "redis",
+    "scheduling"
+  ],
+  "author": "Rakshit Menpara",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/deltasquare4/redisque/issues"
+  },
+  "homepage": "https://github.com/deltasquare4/redisque",
+  "dependencies": {
+    "async": "^0.9.0",
+    "backoff": "^2.4.1",
+    "debug": "^2.1.3",
+    "lodash": "^3.6.0",
+    "moment": "^2.10.2",
+    "redis": "^0.12.1"
+  },
+  "devDependencies": {
+    "chai": "^2.2.0",
+    "mocha": "^2.2.4",
+    "sinon": "^1.14.1"
+  }
+}
